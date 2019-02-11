@@ -1,0 +1,11 @@
+
+#person:
+   # lastName: zhangsan
+   # boss: false
+  #  birth: 2019/2/11
+   # maps: {k1: v1,k2: 12}
+   # lists: [1,2,3,4]
+   # dog:
+   #   name: xiaobai
+   #   age: 3
+  #  age: 22
