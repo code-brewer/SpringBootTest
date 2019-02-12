@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.wac.springboot.springboot06datamybatis.mapper.EmployeeMapper">
+
+    <!--
+    public Employee selectEmpById(Integer id);
+    public Employee insertEmp(Employee employee);
+    -->
+
+    <select id="selectEmpById" resultType="com.wac.springboot.springboot06datamybatis.domain.Employee">
+        select * from employee where id = #{id}
+    </select>
+
+    <insert id="insertEmp" useGeneratedKeys="true" keyProperty="id">
+        insert into employee(lastName,email,gender,d_id) values (#{lastName},#{email},#{gender},#{dId})
+    </insert>
+
+</mapper>
