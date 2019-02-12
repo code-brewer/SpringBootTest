@@ -9,6 +9,7 @@
         <module name="springboot-01-helloworld" />
         <module name="springboot-02-config" />
         <module name="springboot-02-config-02" />
+        <module name="springboot-02-config-autoconfig" />
         <module name="SpringBootTest" />
       </profile>
     </annotationProcessing>

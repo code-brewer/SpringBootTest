@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdf71d9-0c3d-4584-bfba-de122fd6599b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-02-config-02/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-02-config-02/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-02-config-02/src/main/resources/config/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-02-config/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-02-config/src/main/resources/application-prod.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/springboot-02-配置文件" beforeDir="false" afterPath="$PROJECT_DIR$/notebook/springboot-02-配置文件" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-02-config/src/main/java/com/wac/springboot/springboot02config/config/MyAppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02-config/src/main/java/com/wac/springboot/springboot02config/config/MyAppConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-02-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02-config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-02-config/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02-config/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-02-config/src/main/resources/person.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-02-config/src/main/resources/person.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springboot-01-helloworld/target/" />
     <ignored path="$PROJECT_DIR$/springboot-02-config/target/" />
     <ignored path="$PROJECT_DIR$/springboot-02-config-02/target/" />
+    <ignored path="$PROJECT_DIR$/springboot-02-config-autoconfig/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,24 +46,26 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="7" />
-          <entry key="cmd" value="1" />
+          <entry key="cmd" value="2" />
           <entry key="factories" value="1" />
-          <entry key="java" value="31" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="32" />
           <entry key="md" value="1" />
-          <entry key="properties" value="12" />
+          <entry key="properties" value="14" />
           <entry key="springboot-02-配置文件" value="3" />
-          <entry key="xml" value="4" />
+          <entry key="xml" value="5" />
           <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="7" />
-          <entry key="JAVA" value="31" />
+          <entry key="Cmd" value="1" />
+          <entry key="JAVA" value="32" />
           <entry key="Markdown" value="4" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Properties" value="12" />
-          <entry key="XML" value="4" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="14" />
+          <entry key="XML" value="5" />
           <entry key="YAML" value="4" />
           <entry key="spring.factories" value="1" />
         </counts>
@@ -80,7 +73,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="1891" />
-          <entry key="properties" value="268" />
+          <entry key="properties" value="324" />
           <entry key="springboot-02-配置文件" value="60" />
           <entry key="txt" value="16" />
           <entry key="xml" value="101" />
@@ -92,7 +85,7 @@
           <entry key="JAVA" value="1891" />
           <entry key="Markdown" value="60" />
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Properties" value="268" />
+          <entry key="Properties" value="324" />
           <entry key="XML" value="101" />
           <entry key="YAML" value="348" />
         </counts>
@@ -102,99 +95,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/EnableAutoConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/springboot-02-config-autoconfig/src/main/java/com/wac/springboot/springboot02/Springboot02ConfigAutoconfigApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/AutoConfigurationImportSelector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="180" column="63" selection-start-line="180" selection-start-column="63" selection-end-line="180" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.4.RELEASE/spring-core-5.1.4.RELEASE-sources.jar!/org/springframework/core/io/support/SpringFactoriesLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="133" column="81" selection-start-line="132" selection-start-column="20" selection-end-line="133" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE.jar!/META-INF/spring.factories">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="131" column="59" selection-start-line="131" selection-start-column="59" selection-end-line="131" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/web/servlet/HttpEncodingAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2416#2417#0" expanded="true" />
-                <element signature="e#2465#2466#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/http/HttpProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+            <state relative-caret-position="286">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-02-config-02/src/main/resources/application.properties">
+        <entry file="file://$PROJECT_DIR$/springboot-02-config-autoconfig/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.2.RELEASE/spring-boot-2.1.2.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.4.RELEASE/spring-web-5.1.4.RELEASE-sources.jar!/org/springframework/web/filter/CharacterEncodingFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1452">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/condition/ConditionalOnWebApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="66">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -231,11 +144,12 @@
         <option value="$PROJECT_DIR$/springboot-02-config/src/main/java/com/wac/springboot/springboot02config/config/MyAppConfig.java" />
         <option value="$PROJECT_DIR$/springboot-02-config/src/main/resources/person.properties" />
         <option value="$PROJECT_DIR$/springboot-02-config/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springboot-02-config-02/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/springboot-02-config-02/src/main/resources/config/application.properties" />
         <option value="$PROJECT_DIR$/springboot-02-config-02/application.properties" />
         <option value="$PROJECT_DIR$/springboot-02-config-02/config/application.properties" />
         <option value="$PROJECT_DIR$/springboot-02-config-02/src/main/java/com/wac/springboot/springboot02config02/Springboot02Config02Application.java" />
+        <option value="$PROJECT_DIR$/springboot-02-config-02/src/main/resources/config/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-02-config-02/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot-02-config-autoconfig/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -307,57 +221,25 @@
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-02-config" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-02-config" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-02-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-02-config" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-02-config-02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-02-config-02" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-02-config-02" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-02-config-02" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-02-config-02" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -365,16 +247,16 @@
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-02-config-02" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot02config02" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot02" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-02-config-02" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -382,17 +264,17 @@
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-02-config-02" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-02-config-02" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
@@ -442,7 +324,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549949258338" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549950281835" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -477,9 +359,9 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.27047914" />
+    <option name="contentProportion" value="0.13369398" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Springboot02Config02Application">
+  <component name="RunManager" selected="Spring Boot.Springboot02ConfigAutoconfigApplication">
     <configuration name="Springboot02ConfigApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-02-config" />
       <extension name="coverage">
@@ -542,12 +424,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Springboot02ConfigAutoconfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-02-config-autoconfig" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wac.springboot.springboot02.Springboot02ConfigAutoconfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.Springboot01HelloworldApplication" />
       <item itemvalue="JUnit.Springboot02ConfigApplicationTests.contextLoads" />
       <item itemvalue="JUnit.Springboot02ConfigApplicationTests.testHelloService" />
       <item itemvalue="Spring Boot.Springboot02ConfigApplication" />
       <item itemvalue="Spring Boot.Springboot02Config02Application" />
+      <item itemvalue="Spring Boot.Springboot02ConfigAutoconfigApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -571,7 +461,7 @@
       <option name="presentableId" value="Default" />
       <updated>1549885870018</updated>
       <workItem from="1549885875857" duration="9811000" />
-      <workItem from="1549940333927" duration="7636000" />
+      <workItem from="1549940333927" duration="8736000" />
     </task>
     <task id="LOCAL-00001" summary="helloworld">
       <created>1549896671131</created>
@@ -587,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1549896709684</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="配置文件练习">
+      <created>1549949419001</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549949419002</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -623,10 +520,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17447000" />
+    <option name="totallyTimeSpent" value="18547000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
@@ -634,12 +541,12 @@
       <window_info id="Image Layers" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.28214827" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.22617246" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Java Enterprise" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Java Enterprise" order="1" weight="0.3295082" />
       <window_info anchor="bottom" id="Version Control" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Spring" order="3" />
+      <window_info anchor="bottom" id="Spring" order="3" weight="0.3295082" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.3295082" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
@@ -647,10 +554,10 @@
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.3295082" />
       <window_info anchor="bottom" id="Messages" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.35737705" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.7754098" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="2" weight="0.32980332" />
@@ -679,35 +586,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE.jar!/org/springframework/boot/autoconfigure/SpringBootApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-87">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-01-helloworld/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -857,13 +735,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-02-config-02/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-config-02/src/main/resources/config/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="16" selection-start-column="16" selection-end-column="16" />
@@ -1067,10 +938,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-02-config-02/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-02-config-02/src/main/resources/config/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-02-config-02/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-02-config-autoconfig/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-02-config-autoconfig/mvnw.cmd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3107" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-02-config-autoconfig/src/main/java/com/wac/springboot/springboot02/Springboot02ConfigAutoconfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-02-config-autoconfig/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1126,7 +1031,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SpringBootTest</last-edited>
+          <last-edited>springboot-02-config-autoconfig</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
