@@ -1,4 +1,21 @@
 
+---
+server:
+  port: 8080
+spring:
+  profiles:
+    active: prod
+---
+server:
+  port: 8081
+spring:
+  profiles: dev
+---
+server:
+  port: 8082
+spring:
+  profiles: prod
+---
 #person:
    # lastName: zhangsan
    # boss: false
@@ -8,4 +25,4 @@
    # dog:
    #   name: xiaobai
    #   age: 3
-  #  age: 22
+    #  age: 22

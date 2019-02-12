@@ -10,6 +10,10 @@ public class MyAppConfig {
     /**
      * 将方法的返回值添加到容器中，组件的id默认为方法名
      * id=helloService
+     * 此方法会自动被调用
+     *
+     * 不能与beans.xml同时存在
+     *
      */
     @Bean
     public HelloService helloService(){
