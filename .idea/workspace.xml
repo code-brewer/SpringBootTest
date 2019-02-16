@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfdf71d9-0c3d-4584-bfba-de122fd6599b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/DruidDataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyCacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MybatisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/controller/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/domain/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/domain/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/mapper/DepartmentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/mapper/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/service/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/resources/mybatis/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d30058ad-f955-43f1-bc46-fc657cb5a98d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/df6efcdf-6c06-4b01-a6a5-8ff87e77df14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/df6efcdf-6c06-4b01-a6a5-8ff87e77df14.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notebook/springboot-08-cache-redis.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyRedisConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringBootTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notebook/springboot-02-配置文件" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-08-cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-08-cache/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/domain/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-08-cache/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-08-cache/src/test/java/com/wac/springboot/cache/Springboot08CacheApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-08-cache/src/test/java/com/wac/springboot/cache/Springboot08CacheApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -105,62 +93,63 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="1-SNAPSHOT" value="1" />
-          <entry key="class" value="11" />
+          <entry key="class" value="14" />
           <entry key="cmd" value="2" />
           <entry key="department" value="2" />
           <entry key="employee" value="3" />
           <entry key="factories" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="108" />
-          <entry key="md" value="4" />
+          <entry key="java" value="123" />
+          <entry key="md" value="7" />
           <entry key="properties" value="26" />
           <entry key="springboot-02-配置文件" value="3" />
-          <entry key="sql" value="15" />
-          <entry key="xml" value="23" />
-          <entry key="yml" value="23" />
+          <entry key="sql" value="16" />
+          <entry key="xml" value="24" />
+          <entry key="yml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="11" />
+          <entry key="CLASS" value="14" />
           <entry key="Cmd" value="1" />
           <entry key="Database Element" value="5" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="108" />
-          <entry key="Markdown" value="6" />
+          <entry key="JAVA" value="123" />
+          <entry key="Markdown" value="9" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="26" />
           <entry key="SQL" value="4" />
-          <entry key="Scratch" value="11" />
+          <entry key="Scratch" value="12" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="23" />
-          <entry key="YAML" value="23" />
+          <entry key="XML" value="24" />
+          <entry key="YAML" value="24" />
           <entry key="spring.factories" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="82" />
-          <entry key="java" value="6398" />
+          <entry key="java" value="6887" />
+          <entry key="md" value="30" />
           <entry key="properties" value="336" />
           <entry key="springboot-02-配置文件" value="60" />
           <entry key="sql" value="60" />
-          <entry key="txt" value="137" />
+          <entry key="txt" value="152" />
           <entry key="xml" value="336" />
-          <entry key="yml" value="771" />
+          <entry key="yml" value="802" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6398" />
-          <entry key="Markdown" value="60" />
-          <entry key="PLAIN_TEXT" value="137" />
+          <entry key="JAVA" value="6887" />
+          <entry key="Markdown" value="90" />
+          <entry key="PLAIN_TEXT" value="152" />
           <entry key="Properties" value="336" />
           <entry key="SQL" value="8" />
           <entry key="Scratch" value="142" />
           <entry key="XML" value="328" />
-          <entry key="YAML" value="771" />
+          <entry key="YAML" value="802" />
         </counts>
       </usages-collector>
     </session>
@@ -170,75 +159,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/test/java/com/wac/springboot/cache/Springboot08CacheApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/service/EmployeeService.java">
+        <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyRedisConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+            <state relative-caret-position="1159">
+              <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#322#346#0" expanded="true" />
-                <element signature="e#2839#2840#0" expanded="true" />
-                <element signature="e#2903#2904#0" expanded="true" />
+                <element signature="e#847#848#0" expanded="true" />
+                <element signature="e#891#892#0" expanded="true" />
+                <element signature="e#886#896#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/annotation/Caching.java">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://df6efcdf-6c06-4b01-a6a5-8ff87e77df14/schema/springboottest/table/employee">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/controller/EmployeeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#526#527#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#631#632#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/mapper/EmployeeMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyCacheConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="61">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-572">
+              <caret line="236" column="35" lean-forward="true" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -259,9 +220,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-02-config/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-02-config/src/main/java/com/wac/springboot/springboot02config/controller/HelloController.java" />
-        <option value="$PROJECT_DIR$/notebook/springboot-02-配置文件" />
         <option value="$PROJECT_DIR$/springboot-02-config/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot-02-config/src/main/java/com/wac/springboot/springboot02config/bean/Person.java" />
         <option value="$PROJECT_DIR$/springboot-02-config/src/main/java/com/wac/springboot/springboot02config/Springboot02ConfigApplication.java" />
@@ -301,15 +259,18 @@
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/DruidDataSourceConfig.java" />
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/mapper/DepartmentMapper.java" />
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/resources/mybaits/mapper/EmployeeMapper.xml" />
-        <option value="$PROJECT_DIR$/springboot-08-cache/src/test/java/com/wac/springboot/cache/Springboot08CacheApplicationTests.java" />
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/Springboot08CacheApplication.java" />
-        <option value="$PROJECT_DIR$/springboot-08-cache/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot-08-cache/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/notebook/springboot-08-cache.md" />
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyCacheConfig.java" />
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/mapper/EmployeeMapper.java" />
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/controller/EmployeeController.java" />
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/notebook/springboot-08-cache-redis.md" />
+        <option value="$PROJECT_DIR$/springboot-08-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-08-cache/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/domain/Employee.java" />
+        <option value="$PROJECT_DIR$/springboot-08-cache/src/test/java/com/wac/springboot/cache/Springboot08CacheApplicationTests.java" />
+        <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyRedisConfig.java" />
       </list>
     </option>
   </component>
@@ -344,9 +305,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="723" />
-    <option name="y" value="115" />
-    <option name="width" value="883" />
+    <option name="x" value="-64" />
+    <option name="y" value="249" />
+    <option name="width" value="1234" />
     <option name="height" value="710" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -444,6 +405,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cache" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -514,10 +485,10 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
-    <property name="SearchEverywhereHistoryKey" value="cacheas&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/interceptor/CacheAspectSupport.java&#10;cachea&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/hibernate/hibernate-core/5.3.7.Final/hibernate-core-5.3.7.Final.jar!/org/hibernate/stat/CacheableDataStatistics.class&#10;CacheSuppor&#9;PSI&#9;JAVA://org.springframework.cache.interceptor.CacheAspectSupport&#10;abstractcacheinvoker&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/interceptor/AbstractCacheInvoker.java&#10;simplecache&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration&#10;cacheAut&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.java" />
+    <property name="SearchEverywhereHistoryKey" value="redis&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java&#10;rediscacheconfi&#9;PSI&#9;JAVA://org.springframework.data.redis.cache.RedisCacheConfiguration&#10;rediscachec&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration&#10;redisAuto&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration&#10;cacheas&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/interceptor/CacheAspectSupport.java&#10;cachea&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/hibernate/hibernate-core/5.3.7.Final/hibernate-core-5.3.7.Final.jar!/org/hibernate/stat/CacheableDataStatistics.class&#10;CacheSuppor&#9;PSI&#9;JAVA://org.springframework.cache.interceptor.CacheAspectSupport&#10;abstractcacheinvoker&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/interceptor/AbstractCacheInvoker.java&#10;simplecache&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration&#10;cacheAut&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550314005239" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550322608665" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -565,38 +536,6 @@
     <option name="contentProportion" value="0.2511592" />
   </component>
   <component name="RunManager" selected="Spring Boot.Springboot08CacheApplication">
-    <configuration name="Springboot02ConfigApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-02-config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wac.springboot.springboot02config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wac.springboot.springboot02config" />
-      <option name="MAIN_CLASS_NAME" value="com.wac.springboot.springboot02config.Springboot02ConfigApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Springboot02ConfigApplicationTests.testHelloService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot-02-config" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wac.springboot.springboot02config.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wac.springboot.springboot02config" />
-      <option name="MAIN_CLASS_NAME" value="com.wac.springboot.springboot02config.Springboot02ConfigApplicationTests" />
-      <option name="METHOD_NAME" value="testHelloService" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Springboot06DataJdbcApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-06-data-jdbc" />
       <extension name="coverage">
@@ -624,6 +563,38 @@
       <option name="PACKAGE_NAME" value="com.wac.springboot.cache" />
       <option name="MAIN_CLASS_NAME" value="com.wac.springboot.cache.Springboot08CacheApplicationTests" />
       <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot08CacheApplicationTests.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-08-cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wac.springboot.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wac.springboot.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.wac.springboot.cache.Springboot08CacheApplicationTests" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Springboot08CacheApplicationTests.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-08-cache" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wac.springboot.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wac.springboot.cache" />
+      <option name="MAIN_CLASS_NAME" value="com.wac.springboot.cache.Springboot08CacheApplicationTests" />
+      <option name="METHOD_NAME" value="test2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -702,19 +673,19 @@
       <item itemvalue="Spring Boot.Springboot06DataMybatisApplication" />
       <item itemvalue="Spring Boot.Springboot07JpaApplication" />
       <item itemvalue="Spring Boot.Springboot08CacheApplication" />
-      <item itemvalue="JUnit.Springboot02ConfigApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.Springboot02ConfigApplicationTests.testHelloService" />
       <item itemvalue="Spring Boot.Springboot02ConfigApplication" />
       <item itemvalue="JUnit.Springboot06DataJdbcApplicationTests.contextLoads" />
       <item itemvalue="JUnit.Springboot08CacheApplicationTests.contextLoads" />
+      <item itemvalue="JUnit.Springboot08CacheApplicationTests.test1" />
+      <item itemvalue="JUnit.Springboot08CacheApplicationTests.test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Springboot08CacheApplicationTests.test2" />
+        <item itemvalue="JUnit.Springboot08CacheApplicationTests.test1" />
         <item itemvalue="JUnit.Springboot08CacheApplicationTests.contextLoads" />
         <item itemvalue="JUnit.Springboot06DataJdbcApplicationTests.contextLoads" />
         <item itemvalue="Spring Boot.Springboot02ConfigApplication" />
-        <item itemvalue="JUnit.Springboot02ConfigApplicationTests.testHelloService" />
-        <item itemvalue="JUnit.Springboot02ConfigApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -734,7 +705,7 @@
       <workItem from="1549885875857" duration="9811000" />
       <workItem from="1549940333927" duration="27894000" />
       <workItem from="1550135891104" duration="2639000" />
-      <workItem from="1550295060451" duration="14732000" />
+      <workItem from="1550295060451" duration="22463000" />
     </task>
     <task id="LOCAL-00001" summary="helloworld">
       <created>1549896671131</created>
@@ -778,22 +749,17 @@
       <option name="project" value="LOCAL" />
       <updated>1549974291755</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="spring cache 实践">
+      <created>1550314074923</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550314074923</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Springboot06DataJdbcApplicationTests_contextLoads - 2019.02.12 at 16h 47m 52s.xml">
-      <configuration name="Springboot06DataJdbcApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Springboot06DataJdbcApplicationTests_contextLoads - 2019.02.12 at 16h 52m 26s.xml">
-      <configuration name="Springboot06DataJdbcApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Springboot06DataJdbcApplicationTests_contextLoads - 2019.02.12 at 16h 52m 34s.xml">
-      <configuration name="Springboot06DataJdbcApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Springboot06DataJdbcApplicationTests_contextLoads - 2019.02.12 at 16h 54m 01s.xml">
-      <configuration name="Springboot06DataJdbcApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Springboot06DataJdbcApplicationTests_contextLoads - 2019.02.12 at 17h 00m 19s.xml">
       <configuration name="Springboot06DataJdbcApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
@@ -812,9 +778,21 @@
     <history-entry file="Springboot08CacheApplicationTests_contextLoads - 2019.02.16 at 14h 05m 49s.xml">
       <configuration name="Springboot08CacheApplicationTests.contextLoads" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Springboot08CacheApplicationTests_test1 - 2019.02.16 at 19h 48m 50s.xml">
+      <configuration name="Springboot08CacheApplicationTests.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Springboot08CacheApplicationTests_test2 - 2019.02.16 at 20h 09m 32s.xml">
+      <configuration name="Springboot08CacheApplicationTests.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Springboot08CacheApplicationTests_test2 - 2019.02.16 at 20h 10m 26s.xml">
+      <configuration name="Springboot08CacheApplicationTests.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Springboot08CacheApplicationTests_test2 - 2019.02.16 at 20h 12m 02s.xml">
+      <configuration name="Springboot08CacheApplicationTests.test2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55076000" />
+    <option name="totallyTimeSpent" value="62807000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -826,7 +804,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="723" y="115" width="883" height="710" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Capture Tool" order="0" />
@@ -835,7 +813,7 @@
       <window_info id="Image Layers" order="3" />
       <window_info id="Web" order="4" sideWeight="0.50163937" side_tool="true" weight="0.29198185" />
       <window_info id="Favorites" order="5" sideWeight="0.50163937" side_tool="true" weight="0.29198185" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49836066" weight="0.35250267" />
+      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49836066" visible="true" weight="0.19364598" />
       <window_info id="Structure" order="7" sideWeight="0.50163937" side_tool="true" weight="0.29198185" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5015129" side_tool="true" weight="0.3295082" />
@@ -846,22 +824,22 @@
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="TODO" order="8" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.69508195" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.42459017" />
       <window_info anchor="bottom" id="Debug" order="10" sideWeight="0.82072616" weight="0.6819672" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49924356" weight="0.6032787" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49924356" weight="0.6213115" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="2" visible="true" weight="0.29161605" />
+      <window_info anchor="right" id="Database" order="2" weight="0.18154311" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Commander" order="6" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.09455371" />
       <window_info anchor="right" id="Bean Validation" order="9" weight="0.32980332" />
     </layout>
   </component>
@@ -913,84 +891,14 @@
     <MESSAGE value="自动配置" />
     <MESSAGE value="SpringBoot整合DruidDataSource" />
     <MESSAGE value="使用注解和配置整合mybatis" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用注解和配置整合mybatis" />
+    <MESSAGE value="spring cache 实践" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring cache 实践" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/resources/mybaits/mapper/EmployeeMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-06-data-mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="27" column="21" selection-start-line="22" selection-start-column="8" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/df6efcdf-6c06-4b01-a6a5-8ff87e77df14/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="6" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-06-data-jdbc/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-config-02/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/mapper/DepartmentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-config/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-config/src/main/resources/person.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-config/src/main/resources/application-prod.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-config/src/main/resources/application-dev.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-config/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-169" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-config/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-02-config-autoconfig/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
@@ -1026,34 +934,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/dataSources/df6efcdf-6c06-4b01-a6a5-8ff87e77df14.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/test/java/com/wac/springboot/cache/Springboot08CacheApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/Springboot08CacheApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="68" selection-start-line="4" selection-start-column="68" selection-end-line="4" selection-end-column="68" />
-          <folding>
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#443#444#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/CacheType.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1114,13 +994,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/CacheManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1132,16 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
           <caret line="55" column="35" lean-forward="true" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/notebook/springboot-08-cache.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="44">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1238,10 +1101,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyCacheConfig.java">
+    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/mapper/EmployeeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="220">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1255,16 +1118,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://df6efcdf-6c06-4b01-a6a5-8ff87e77df14/schema/springboottest/table/employee">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/notebook/springboot-08-cache.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="44">
+            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/controller/EmployeeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
+        <state relative-caret-position="425">
           <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1276,25 +1142,189 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/mapper/EmployeeMapper.java">
+    <entry file="das://df6efcdf-6c06-4b01-a6a5-8ff87e77df14/schema/springboottest/table/employee">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/df6efcdf-6c06-4b01-a6a5-8ff87e77df14/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="286">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="6" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#322#346#0" expanded="true" />
+            <element signature="e#2839#2840#0" expanded="true" />
+            <element signature="e#2903#2904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-08-cache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notebook/springboot-08-cache-redis.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="88">
+            <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE.jar!/org/springframework/data/redis/core/RedisTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="51" column="22" selection-start-line="51" selection-start-column="22" selection-end-line="51" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE.jar!/org/springframework/data/redis/serializer/RedisSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+          <folding>
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE.jar!/org/springframework/data/redis/serializer/JdkSerializationRedisSerializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/domain/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-end-line="4" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyCacheConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="10" lean-forward="true" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/service/EmployeeService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE-sources.jar!/org/springframework/data/redis/serializer/Jackson2JsonRedisSerializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="100" column="28" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+        <state relative-caret-position="413">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="e#1944#1945#0" expanded="true" />
+            <element signature="e#1984#1985#0" expanded="true" />
+            <element signature="e#2169#2170#0" expanded="true" />
+            <element signature="e#2200#2201#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE-sources.jar!/org/springframework/data/redis/serializer/JdkSerializationRedisSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="53" column="11" selection-start-line="53" selection-start-column="11" selection-end-line="53" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE-sources.jar!/org/springframework/data/redis/core/RedisTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25901">
+          <caret line="113" column="11" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE-sources.jar!/org/springframework/data/redis/serializer/RedisSerializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-784">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="e#3206#3207#0" expanded="true" />
+            <element signature="e#3247#3248#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/RedisCacheConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="67" column="5" lean-forward="true" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/Springboot08CacheApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#322#346#0" expanded="true" />
-            <element signature="e#2839#2840#0" expanded="true" />
-            <element signature="e#2903#2904#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/test/java/com/wac/springboot/cache/Springboot08CacheApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="236" column="35" lean-forward="true" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyRedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1159">
+          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#891#892#0" expanded="true" />
+            <element signature="e#886#896#0" expanded="true" />
           </folding>
         </state>
       </provider>
