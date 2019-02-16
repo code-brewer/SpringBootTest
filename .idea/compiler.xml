@@ -12,6 +12,8 @@
         <module name="springboot-02-config-autoconfig" />
         <module name="springboot-06-data-jdbc" />
         <module name="springboot-06-data-mybatis" />
+        <module name="springboot-07-jpa" />
+        <module name="springboot-08-cache" />
         <module name="SpringBootTest" />
       </profile>
     </annotationProcessing>

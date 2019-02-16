@@ -11,6 +11,8 @@
         <option value="$PROJECT_DIR$/springboot-02-config-autoconfig/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-06-data-jdbc/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-06-data-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-07-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-08-cache/pom.xml" />
       </list>
     </option>
   </component>
