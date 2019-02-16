@@ -4,7 +4,6 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-01-helloworld/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-02-config/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-02-config-02/pom.xml" />
@@ -13,6 +12,7 @@
         <option value="$PROJECT_DIR$/springboot-06-data-mybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-07-jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-08-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-09-amqp/pom.xml" />
       </list>
     </option>
   </component>

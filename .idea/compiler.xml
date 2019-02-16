@@ -14,8 +14,10 @@
         <module name="springboot-06-data-mybatis" />
         <module name="springboot-07-jpa" />
         <module name="springboot-08-cache" />
-        <module name="SpringBootTest" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringBootTest" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

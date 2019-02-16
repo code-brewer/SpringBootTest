@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfdf71d9-0c3d-4584-bfba-de122fd6599b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/notebook/springboot-08-cache-redis.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyRedisConfig.java" afterDir="false" />
+    <list default="true" id="cfdf71d9-0c3d-4584-bfba-de122fd6599b" name="Default Changelist" comment="redis整合">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-08-cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-08-cache/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/domain/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/domain/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-08-cache/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-08-cache/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-08-cache/src/test/java/com/wac/springboot/cache/Springboot08CacheApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-08-cache/src/test/java/com/wac/springboot/cache/Springboot08CacheApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -82,7 +80,7 @@
     <session id="1080817165">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.113" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.44" value="1" />
@@ -99,13 +97,13 @@
           <entry key="employee" value="3" />
           <entry key="factories" value="1" />
           <entry key="gitignore" value="1" />
-          <entry key="iml" value="1" />
-          <entry key="java" value="123" />
+          <entry key="iml" value="2" />
+          <entry key="java" value="125" />
           <entry key="md" value="7" />
           <entry key="properties" value="26" />
           <entry key="springboot-02-配置文件" value="3" />
           <entry key="sql" value="16" />
-          <entry key="xml" value="24" />
+          <entry key="xml" value="28" />
           <entry key="yml" value="24" />
         </counts>
       </usages-collector>
@@ -114,15 +112,15 @@
           <entry key="CLASS" value="14" />
           <entry key="Cmd" value="1" />
           <entry key="Database Element" value="5" />
-          <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="123" />
+          <entry key="IDEA_MODULE" value="2" />
+          <entry key="JAVA" value="125" />
           <entry key="Markdown" value="9" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="26" />
           <entry key="SQL" value="4" />
           <entry key="Scratch" value="12" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="24" />
+          <entry key="XML" value="28" />
           <entry key="YAML" value="24" />
           <entry key="spring.factories" value="1" />
         </counts>
@@ -130,25 +128,25 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="cell" value="82" />
-          <entry key="java" value="6887" />
+          <entry key="java" value="6888" />
           <entry key="md" value="30" />
           <entry key="properties" value="336" />
           <entry key="springboot-02-配置文件" value="60" />
           <entry key="sql" value="60" />
-          <entry key="txt" value="152" />
-          <entry key="xml" value="336" />
+          <entry key="txt" value="160" />
+          <entry key="xml" value="338" />
           <entry key="yml" value="802" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6887" />
+          <entry key="JAVA" value="6888" />
           <entry key="Markdown" value="90" />
-          <entry key="PLAIN_TEXT" value="152" />
+          <entry key="PLAIN_TEXT" value="160" />
           <entry key="Properties" value="336" />
           <entry key="SQL" value="8" />
           <entry key="Scratch" value="142" />
-          <entry key="XML" value="328" />
+          <entry key="XML" value="330" />
           <entry key="YAML" value="802" />
         </counts>
       </usages-collector>
@@ -160,46 +158,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/test/java/com/wac/springboot/cache/Springboot08CacheApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/springboot-08-cache/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/data/redis/RedisAutoConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+            <state relative-caret-position="836">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyRedisConfig.java">
+        <entry file="file://$PROJECT_DIR$/springboot-09-amqp/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#891#892#0" expanded="true" />
-                <element signature="e#886#896#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-572">
-              <caret line="236" column="35" lean-forward="true" selection-start-line="236" selection-start-column="35" selection-end-line="236" selection-end-column="35" />
+            <state relative-caret-position="330">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -220,7 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot-02-config/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/springboot-02-config/src/main/java/com/wac/springboot/springboot02config/bean/Person.java" />
         <option value="$PROJECT_DIR$/springboot-02-config/src/main/java/com/wac/springboot/springboot02config/Springboot02ConfigApplication.java" />
         <option value="$PROJECT_DIR$/springboot-02-config/src/test/java/com/wac/springboot/springboot02config/Springboot02ConfigApplicationTests.java" />
@@ -264,13 +234,14 @@
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyCacheConfig.java" />
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/mapper/EmployeeMapper.java" />
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/controller/EmployeeController.java" />
-        <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/service/EmployeeService.java" />
         <option value="$PROJECT_DIR$/notebook/springboot-08-cache-redis.md" />
         <option value="$PROJECT_DIR$/springboot-08-cache/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/domain/Employee.java" />
         <option value="$PROJECT_DIR$/springboot-08-cache/src/test/java/com/wac/springboot/cache/Springboot08CacheApplicationTests.java" />
         <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyRedisConfig.java" />
+        <option value="$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/springboot-09-amqp/pom.xml" />
       </list>
     </option>
   </component>
@@ -305,8 +276,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-64" />
-    <option name="y" value="249" />
+    <option name="x" value="-8" />
+    <option name="y" value="201" />
     <option name="width" value="1234" />
     <option name="height" value="710" />
   </component>
@@ -335,138 +306,7 @@
           <expand>
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="notebook" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SpringBootTest" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot-08-cache" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-09-amqp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
@@ -488,7 +328,7 @@
     <property name="SearchEverywhereHistoryKey" value="redis&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java&#10;rediscacheconfi&#9;PSI&#9;JAVA://org.springframework.data.redis.cache.RedisCacheConfiguration&#10;rediscachec&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration&#10;redisAuto&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration&#10;cacheas&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/interceptor/CacheAspectSupport.java&#10;cachea&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/hibernate/hibernate-core/5.3.7.Final/hibernate-core-5.3.7.Final.jar!/org/hibernate/stat/CacheableDataStatistics.class&#10;CacheSuppor&#9;PSI&#9;JAVA://org.springframework.cache.interceptor.CacheAspectSupport&#10;abstractcacheinvoker&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/interceptor/AbstractCacheInvoker.java&#10;simplecache&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration&#10;cacheAut&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550322608665" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550330652845" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -705,7 +545,7 @@
       <workItem from="1549885875857" duration="9811000" />
       <workItem from="1549940333927" duration="27894000" />
       <workItem from="1550135891104" duration="2639000" />
-      <workItem from="1550295060451" duration="22463000" />
+      <workItem from="1550295060451" duration="24846000" />
     </task>
     <task id="LOCAL-00001" summary="helloworld">
       <created>1549896671131</created>
@@ -756,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550314074923</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="redis整合">
+      <created>1550322656042</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550322656042</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -792,7 +639,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62807000" />
+    <option name="totallyTimeSpent" value="65190000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -813,7 +660,7 @@
       <window_info id="Image Layers" order="3" />
       <window_info id="Web" order="4" sideWeight="0.50163937" side_tool="true" weight="0.29198185" />
       <window_info id="Favorites" order="5" sideWeight="0.50163937" side_tool="true" weight="0.29198185" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49836066" visible="true" weight="0.19364598" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49836066" visible="true" weight="0.3850227" />
       <window_info id="Structure" order="7" sideWeight="0.50163937" side_tool="true" weight="0.29198185" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5015129" side_tool="true" weight="0.3295082" />
@@ -830,7 +677,7 @@
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="14" />
-      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49924356" weight="0.6213115" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49924356" weight="0.47704917" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.32980332" />
       <window_info anchor="right" id="Database" order="2" weight="0.18154311" />
@@ -892,26 +739,14 @@
     <MESSAGE value="SpringBoot整合DruidDataSource" />
     <MESSAGE value="使用注解和配置整合mybatis" />
     <MESSAGE value="spring cache 实践" />
-    <option name="LAST_COMMIT_MESSAGE" value="spring cache 实践" />
+    <MESSAGE value="redis整合" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis整合" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot-02-config-autoconfig/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-config-02/src/main/resources/config/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-config-02/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-01-helloworld/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1156,26 +991,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/service/EmployeeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#322#346#0" expanded="true" />
-            <element signature="e#2839#2840#0" expanded="true" />
-            <element signature="e#2903#2904#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notebook/springboot-08-cache-redis.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1292,16 +1107,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/test/java/com/wac/springboot/cache/Springboot08CacheApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-572">
@@ -1318,14 +1123,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/config/MyRedisConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
+        <state relative-caret-position="191">
+          <caret line="25" selection-start-line="25" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#847#848#0" expanded="true" />
             <element signature="e#891#892#0" expanded="true" />
             <element signature="e#886#896#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/main/java/com/wac/springboot/cache/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="997">
+          <caret line="74" column="8" lean-forward="true" selection-start-line="74" selection-start-column="8" selection-end-line="74" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2789#2790#0" expanded="true" />
+            <element signature="e#2853#2854#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringBootTest.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-08-cache/src/test/java/com/wac/springboot/cache/Springboot08CacheApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="968">
+          <caret line="44" column="1" lean-forward="true" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-08-cache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-09-amqp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -1381,7 +1232,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springboot-07-jpa</last-edited>
+          <last-edited>springboot-09-amqp</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
