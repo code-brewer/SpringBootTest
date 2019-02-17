@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfdf71d9-0c3d-4584-bfba-de122fd6599b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+    <list default="true" id="cfdf71d9-0c3d-4584-bfba-de122fd6599b" name="Default Changelist" comment="消息队列整合">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringBootTest.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-09-amqp/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-09-amqp/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-09-amqp/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-09-amqp/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-09-amqp/src/main/java/com/wac/amqp/rabbitmq/amqp/Springboot09AmqpApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-09-amqp/src/main/java/com/wac/springboot/amqp/Springboot09AmqpApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-09-amqp/src/main/java/com/wac/springboot/amqp/Springboot09AmqpApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-09-amqp/src/test/java/com/wac/amqp/rabbitmq/amqp/Springboot09AmqpApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-09-amqp/src/test/java/com/wac/springboot/amqp/Springboot09AmqpApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-09-amqp/src/test/java/com/wac/springboot/amqp/Springboot09AmqpApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-02-config-autoconfig/springboot-02-config-autoconfig.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-07-jpa/springboot-07-jpa.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -89,8 +80,9 @@
     <session id="1080817165">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.113" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.30" value="1" />
           <entry key="project.open.time.34" value="1" />
@@ -98,7 +90,7 @@
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.48" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -114,7 +106,7 @@
           <entry key="java" value="139" />
           <entry key="md" value="7" />
           <entry key="pom" value="1" />
-          <entry key="properties" value="27" />
+          <entry key="properties" value="28" />
           <entry key="springboot-02-配置文件" value="3" />
           <entry key="sql" value="16" />
           <entry key="xml" value="41" />
@@ -130,7 +122,7 @@
           <entry key="JAVA" value="139" />
           <entry key="Markdown" value="9" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="27" />
+          <entry key="Properties" value="28" />
           <entry key="SQL" value="4" />
           <entry key="Scratch" value="12" />
           <entry key="UML" value="1" />
@@ -165,6 +157,24 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1112642707">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="SpringBootTest" />
@@ -180,17 +190,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/springboot-09-amqp/src/main/java/com/wac/springboot/amqp/Springboot09AmqpApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="264">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#265#266#0" expanded="true" />
                 <element signature="e#343#344#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springboot-02-config-autoconfig/src/main/java/com/wac/springboot/springboot02/Springboot02ConfigAutoconfigApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springboot-09-amqp/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -327,9 +355,9 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="201" />
-    <option name="width" value="1234" />
+    <option name="x" value="570" />
+    <option name="y" value="1" />
+    <option name="width" value="1150" />
     <option name="height" value="710" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -357,10 +385,10 @@
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <showMembers ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -372,42 +400,55 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-09-amqp" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-09-amqp" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-09-amqp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-09-amqp" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-09-amqp" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="amqp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springboot02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-02-config-autoconfig" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBootTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-04-restfulweb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -425,8 +466,9 @@
     <property name="SearchEverywhereHistoryKey" value="redis&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/data/spring-data-redis/2.1.4.RELEASE/spring-data-redis-2.1.4.RELEASE-sources.jar!/org/springframework/data/redis/cache/RedisCacheConfiguration.java&#10;rediscacheconfi&#9;PSI&#9;JAVA://org.springframework.data.redis.cache.RedisCacheConfiguration&#10;rediscachec&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration&#10;redisAuto&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.data.redis.RedisAutoConfiguration&#10;cacheas&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/interceptor/CacheAspectSupport.java&#10;cachea&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/hibernate/hibernate-core/5.3.7.Final/hibernate-core-5.3.7.Final.jar!/org/hibernate/stat/CacheableDataStatistics.class&#10;CacheSuppor&#9;PSI&#9;JAVA://org.springframework.cache.interceptor.CacheAspectSupport&#10;abstractcacheinvoker&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/interceptor/AbstractCacheInvoker.java&#10;simplecache&#9;PSI&#9;JAVA://org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration&#10;cacheAut&#9;FILE&#9;jar://D:/ProgramData/apache-maven-3.5.4/LocalWareHouse/org/springframework/boot/spring-boot-autoconfigure/2.1.2.RELEASE/spring-boot-autoconfigure-2.1.2.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550383263751" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550393676535" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaBasicTest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -472,7 +514,7 @@
     </option>
     <option name="contentProportion" value="0.2511592" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Springboot09AmqpApplication">
+  <component name="RunManager" selected="Spring Boot.Springboot02ConfigAutoconfigApplication">
     <configuration name="Springboot06DataJdbcApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot-06-data-jdbc" />
       <extension name="coverage">
@@ -710,6 +752,8 @@
       <workItem from="1550377733406" duration="1780000" />
       <workItem from="1550381349066" duration="832000" />
       <workItem from="1550382493996" duration="930000" />
+      <workItem from="1550392070076" duration="419000" />
+      <workItem from="1550393296604" duration="655000" />
     </task>
     <task id="LOCAL-00001" summary="helloworld">
       <created>1549896671131</created>
@@ -774,7 +818,14 @@
       <option name="project" value="LOCAL" />
       <updated>1550330999857</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="消息队列整合">
+      <created>1550392321787</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550392321787</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -810,7 +861,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68988000" />
+    <option name="totallyTimeSpent" value="70062000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -831,7 +882,7 @@
       <window_info id="Image Layers" order="3" />
       <window_info id="Web" order="4" sideWeight="0.50163937" side_tool="true" weight="0.29198185" />
       <window_info id="Favorites" order="5" sideWeight="0.50163937" side_tool="true" weight="0.29198185" />
-      <window_info content_ui="combo" id="Project" order="6" sideWeight="0.49836066" visible="true" weight="0.26626325" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.49836066" visible="true" weight="0.18986385" />
       <window_info id="Structure" order="7" sideWeight="0.50163937" side_tool="true" weight="0.29198185" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3295082" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5015129" side_tool="true" weight="0.3295082" />
@@ -851,7 +902,7 @@
       <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49924356" weight="0.71311474" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Maven Projects" order="1" weight="0.32980332" />
-      <window_info anchor="right" id="Database" order="2" weight="0.18154311" />
+      <window_info anchor="right" id="Database" order="2" weight="0.25189108" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -919,13 +970,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/interceptor/SimpleKeyGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="36" column="56" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.4.RELEASE/spring-context-5.1.4.RELEASE-sources.jar!/org/springframework/cache/interceptor/AbstractCacheInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="902">
@@ -1133,13 +1177,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-02-config-autoconfig/src/main/java/com/wac/springboot/springboot02/Springboot02ConfigAutoconfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-07-jpa/src/main/java/com/wac/springboot/springboot07jpa/Springboot07JpaApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -1173,10 +1210,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#515#516#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1215,13 +1248,6 @@
     <entry file="file://$PROJECT_DIR$/springboot-01-helloworld/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot-08-cache/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-09-amqp/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -1229,13 +1255,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-09-amqp/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-08-cache/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springboot-09-amqp/src/main/java/com/wac/springboot/amqp/Springboot09AmqpApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="264">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#265#266#0" expanded="true" />
             <element signature="e#343#344#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot-02-config-autoconfig/src/main/java/com/wac/springboot/springboot02/Springboot02ConfigAutoconfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
