@@ -1,4 +1,4 @@
-package com.wac.amqp.rabbitmq.amqp;
+package com.wac.springboot.restfulweb;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,11 +7,10 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class Springboot09AmqpApplicationTests {
+public class Springboot04RestfulwebApplicationTests {
 
     @Test
     public void contextLoads() {
     }
 
 }
-

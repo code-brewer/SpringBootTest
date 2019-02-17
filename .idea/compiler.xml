@@ -10,10 +10,12 @@
         <module name="springboot-02-config" />
         <module name="springboot-02-config-02" />
         <module name="springboot-02-config-autoconfig" />
+        <module name="springboot-04-restfulweb" />
         <module name="springboot-06-data-jdbc" />
         <module name="springboot-06-data-mybatis" />
         <module name="springboot-07-jpa" />
         <module name="springboot-08-cache" />
+        <module name="springboot-09-amqp" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
