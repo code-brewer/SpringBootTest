@@ -9,10 +9,12 @@ import java.util.Map;
 @Controller
 public class HelloController {
 
-    @RequestMapping({"/","/index.html"})
-    public String index(){
-        return "index";
+
+    @RequestMapping({"/"})
+    public String login(){
+        return "login";
     }
+
 
     //http://localhost:8080/success
     @RequestMapping("/success")
