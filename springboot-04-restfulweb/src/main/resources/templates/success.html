@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--th:text 将div内的值取代为text中的-->
+<!--不转义特殊字符-->
+<div th:text="${hello}">no hello</div>
+<!--转义特殊字符-->
+<div th:utext="${hello}">no hello</div>
+<!--th:each所在的便签会出现次数与遍历次数相同-->
+<h4 th:text="name" th:each="name:${names}"></h4>
+<hr>
+
+<h4>
+   <span th:each="name:${names}"> [[${name}]] </span>
+</h4>
+
+</body>
+</html>
